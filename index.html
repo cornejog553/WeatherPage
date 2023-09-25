@@ -3,10 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Weather</title>
 </head>
 <body>
+    <form action="">
+        <input type="search" name="" id="searchBox" placeholder="Search Location">
+    </form>
+    <div class="forecast">
+        <div class="top-currentForecast">
+            <div class="top-currentForecastMainTempInfo">
+                <p>Monday 09/25/2023 3:30pm</p>
+                <h1 id="mainTemp">59°</h1>
+                <img src="imgs/cloudy.png" alt="" srcset="">
+                <h2>Cloudy</h2>
+                <h2>Pittsburgh</h2>
+                <h3>64°/ 59° Feels like 58°</h3>
+            </div>
+
+            <div class="top-currentForecastImages">
+                
+                <h3>Feels Like</h3>
+                <span>20°F</span>
+
+                <h3>Humidity</h3>
+                <span>83%</span>
+
+                <h3>Chance of Rain</h3>
+                <span>40%</span>
+
+                <h3>Wind Speed</h3>
+                <span>5mph</span>
+            </div>
+            
+        </div>
+        <div class="bottom-dailyForecast">
+            <div class="dayForecastContainer">
+                <h3>Tuesday</h3>
+                <span>70°F</span>
+                <span>50°F</span>
+                <img src="imgs/cloudyDailyIcon.png" alt="" srcset="">
+            </div>
+
+            <div class="dayForecastContainer">
+                <h3>Tuesday</h3>
+                <span>70°F</span>
+                <span>50°F</span>
+                <img src="imgs/cloudyDailyIcon.png" alt="" srcset="">
+            </div>
+
+            <div class="dayForecastContainer">
+                <h3>Tuesday</h3>
+                <span>70°F</span>
+                <span>50°F</span>
+                <img src="imgs/cloudyDailyIcon.png" alt="" srcset="">
+            </div>
+
+            <div class="dayForecastContainer">
+                <h3>Tuesday</h3>
+                <span>70°F</span>
+                <span>50°F</span>
+                <img src="imgs/cloudyDailyIcon.png" alt="" srcset="">
+            </div>
+
+            <div class="dayForecastContainer">
+                <h3>Tuesday</h3>
+                <span>70°F</span>
+                <span>50°F</span>
+                <img src="imgs/cloudyDailyIcon.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
     
+    <script src="scriptWeather.js"></script>
 </body>
 </html>
